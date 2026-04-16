@@ -2,9 +2,12 @@
 ## 🚨GSM-Enabled Unified Alarm using Reed and LDR Detection🚨
 
 # 📘 Project Description
+
 The **G.U.A.R.D. (GSM-Enabled Unified Alarm using Reed and LDR Detection)** is a microcontroller-based anti-theft security system designed to detect unauthorized access and object removal. The system uses an Arduino microcontroller integrated with two sensing modules: a Light Dependent Resistor (LDR) for optical intrusion detection and a reed switch for physical displacement detection.
-	The LDR operates using an active optical interruption method, where a laser diode continuously illuminates the photoresistor mounted on the enclosure. When the laser beam is interrupted, the resulting change in resistance is detected by the Arduino as a trigger signal, activating an audible buzzer, commanding the SIM900A GSM module to initiate a call to a pre-registered mobile number, and controlling a servo actuator to automatically lock the enclosure door.
-	For additional security, a reed switch is installed at the base of the protected object. When the object is removed, the magnetic field is disrupted, causing the reed switch to change state and send a trigger signal to the Arduino. This event similarly activates the buzzer alarm, initiates a GSM call and sms, and engages the servo actuator to lock the door, providing real-time intrusion notification and improved system reliability through dual-sensor detection and physical access prevention.
+
+The LDR operates using an active optical interruption method, where a laser diode continuously illuminates the photoresistor mounted on the enclosure. When the laser beam is interrupted, the resulting change in resistance is detected by the Arduino as a trigger signal, activating an audible buzzer, commanding the SIM800l GSM module to initiate a call to a pre-registered mobile number, and controlling a servo actuator to automatically lock the enclosure door.
+	
+For additional security, a reed switch is installed at the base of the protected object. When the object is removed, the magnetic field is disrupted, causing the reed switch to change state and send a trigger signal to the Arduino. This event similarly activates the buzzer alarm, initiates a GSM call and sms, and engages the servo actuator to lock the door, providing real-time intrusion notification and improved system reliability through dual-sensor detection and physical access prevention.
 
 # 🛠️ Materials
 | INPUT |
