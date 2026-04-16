@@ -66,4 +66,13 @@ The **G.U.A.R.D. (GSM-Enabled Unified Alarm using Reed and LDR Detection)** is a
 # 📋Testing Sample Monitor
 <img width="154" height="668" alt="image" src="https://github.com/user-attachments/assets/bb7cbaee-b59b-4670-949d-ab6c34ccc837" />
 
-# Codes
+# 💻Codes
+[click here](https://github.com/nullaralexander/G.U.A.R.D-/blob/main/GUARDcode.ino)
+
+# 🎥 Sample Video
+https://github.com/user-attachments/assets/4e49eeef-b3b5-44cf-93b4-3ba498cb5666
+
+
+
+
+
